@@ -29,6 +29,7 @@
     # always loaded
     'data': [
         'views/images_snippet.xml',
+        'views/assets.xml',
     ],
 
 }
