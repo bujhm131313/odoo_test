@@ -9,5 +9,5 @@ class AgentProduct(models.Model):
     partner = fields.Many2one('res.partner', string='Agent', readonly=True,
                               required=True)
     product = fields.Many2one('product.product', string='Product',
-                              required=True)
+                              required=True, domain=[('type', '=', 'service')])
     agent_discount = fields.Integer(required=True)
