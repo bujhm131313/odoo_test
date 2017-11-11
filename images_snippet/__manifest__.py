@@ -28,7 +28,7 @@
 
     # always loaded
     'data': [
-        # 'views/',
+        'views/images_snippet.xml',
     ],
 
 }
