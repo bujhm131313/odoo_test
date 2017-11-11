@@ -7,7 +7,7 @@
             <field name="arch" type="xml">
 
                 <xpath expr="//field[@name='order_line']/tree//field[@name='price_subtotal']" position="before">
-                    <field name="agent_product" />
+                    <field name="agent_product" domain="[('product', '=', product_id)]"/>
                 </xpath>
 
             </field>
