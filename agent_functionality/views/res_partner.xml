@@ -11,7 +11,7 @@
                 </xpath>
 
                 <xpath expr="//page[last()]" position="after">
-                    <page string="Agent settings">
+                    <page string="Agent settings" attrs="{'invisible': [('is_agent', '=', False)]}">
                         <field name="agent_products" />
                     </page>
                 </xpath>
