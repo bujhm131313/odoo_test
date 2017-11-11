@@ -1,0 +1,18 @@
+<odoo>
+    <data>
+
+        <template id="place_into_bar" inherit_id="website.snippets" name="Place into bar">
+            <xpath expr="//div[@id='snippet_content']/div[@class='o_panel_body']" position="inside">
+                <t t-snippet="images_snippet.images_snippet"
+                   t-thumbnail="/images_snippet/static/description/icon.png"/>
+            </xpath>
+        </template>
+
+        <template id="images_snippet_styles" name="Images snippet styles" inherit_id="website.assets_frontend">
+            <xpath expr="link[last()]" position="after">
+                <link href="/images_snippet/static/less/style.less" rel="stylesheet" type="text/less"/>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>
