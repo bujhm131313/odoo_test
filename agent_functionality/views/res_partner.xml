@@ -5,9 +5,17 @@
             <field name="model">res.partner</field>
             <field name="inherit_id" ref="base.view_partner_form"/>
             <field name="arch" type="xml">
+
                 <xpath expr="//field[@name='category_id']" position="after">
                     <field name="is_agent" />
                 </xpath>
+
+                <xpath expr="//page[last()]" position="after">
+                    <page string="Agent settings">
+                        <field name="agent_products" />
+                    </page>
+                </xpath>
+
             </field>
         </record>
 
