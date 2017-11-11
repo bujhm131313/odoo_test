@@ -12,7 +12,7 @@
 
                 <xpath expr="//page[last()]" position="after">
                     <page string="Agent settings" attrs="{'invisible': [('is_agent', '=', False)]}">
-                        <field name="agent_products" />
+                        <field name="agent_products" context="{'default_partner': id}"/>
                     </page>
                 </xpath>
 
