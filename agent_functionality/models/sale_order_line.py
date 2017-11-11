@@ -7,3 +7,6 @@ class SaleOrderLineAgent(models.Model):
     _inherit = 'sale.order.line'
 
     agent_product = fields.Many2one('agent.product')
+
+
+
