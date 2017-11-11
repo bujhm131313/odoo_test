@@ -21,6 +21,24 @@
                             </a>
                         </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="https://www.google.com">
+                                <img alt="four" class="images_snippet-img" src="/images_snippet/static/src/img/four.png"/>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://www.google.com">
+                                <img alt="five" class="images_snippet-img" src="/images_snippet/static/src/img/five.png"/>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://www.google.com">
+                                <img alt="six" class="images_snippet-img" src="/images_snippet/static/src/img/six.png"/>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </section>
         </template>
